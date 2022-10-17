@@ -7,7 +7,7 @@ This parser will evaluate simple arithmetic expressions comprise of "+,-,*,/" an
 Grammar: There can only be integers and operations. There must be one and only one operation in between integers (run example input01 to see).
 
 How to run:
-- Command line (Linux): cc -o parser -g main.c scan.c expr.c tree.c interp.c
+- Command line (Linux): cc -o parser -g main.c scan.c expr2.c tree.c interp.c
 
 ./parser input01.txt 
 
