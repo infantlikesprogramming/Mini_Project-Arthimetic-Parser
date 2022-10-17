@@ -15,7 +15,7 @@ int interpretAST(struct ASTnode* n){
     }
     if (n->right){
         rightval=interpretAST(n->right);
-        printf("Doing %d %s %d\n ",leftval, operation[n->op],rightval);
+        printf("Doing %d %s %d\n",leftval, operation[n->op],rightval);
     }
     // - if n->right ...
 
