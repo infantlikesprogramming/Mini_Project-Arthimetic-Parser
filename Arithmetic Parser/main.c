@@ -19,6 +19,6 @@ int main(int argc,char* argv[]){
     struct ASTnode* n;
     scan(&Token);
     n=binexpr(0);
-    printf("value is %d",interpretAST(n));
+    printf("value is %d\n",interpretAST(n));
     return 1;
 }
